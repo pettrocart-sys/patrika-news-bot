@@ -15,7 +15,7 @@ TOKEN_JSON_DATA = os.environ.get("TOKEN_JSON")
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 # Patrika Rajasthan News RSS Feed URL
-PATRIKA_RSS_URL = "https://www.patrika.com/rss/rajasthan-news.xml"
+PATRIKA_RSS_URL = "https://www.patrika.com/rajasthan-news"
 SCOPES = ["https://www.googleapis.com/auth/blogger"]
 
 
